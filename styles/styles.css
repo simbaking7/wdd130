@@ -1,11 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root{
     --background-color: #5a0505;
-  --accent-color: #011b64;
+  --accent-color: solid rgb(11, 81, 10);
   --heading-text-color: white;
   --main-font: Arial, sans-serif;
   --base-font-size: 16px;
   --button-padding: 10px;
-  --shadow: yellow;
+  --shadow: rgb(6, 6, 6);
 }
 nav{background-color: var(--background-color);
 padding: 10px;
@@ -36,7 +41,7 @@ aside{
     margin: 1rem;
     border: 1px solid rgb(0, 0, 0/0.2);
     padding: 2rem;
-    background-color: #eee;
+    background-color: wheat;
     color: #333;
 }
 aside img{
@@ -44,6 +49,7 @@ aside img{
     height: auto;
 }
 main img{
+    float: right;
     width: 150px;
     height: auto;
 }
@@ -54,4 +60,18 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* Class selectors*/
+.box{
+    margin: 1rem;
+    border: 1px solid #020d32;
+    padding: 1rem;
+    background-color: #78c0f4;
+    color: #eee;
+}
+aside h2{
+    color: rgb(47, 47, 3);
+    position: relative;
+    top: 50px;
+    left: 6px;
 }
