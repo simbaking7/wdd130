@@ -1,20 +1,29 @@
-nav{background-color: darkblue;
+:root{
+    --background-color: #5a0505;
+  --accent-color: #011b64;
+  --heading-text-color: white;
+  --main-font: Arial, sans-serif;
+  --base-font-size: 16px;
+  --button-padding: 10px;
+  --shadow: yellow;
+}
+nav{background-color: var(--background-color);
 padding: 10px;
 }
 nav a {
-    color: white;
+    color:var(--heading-text-color);
     display: block;
     padding: 20px;
 }
 h1 {
-    color: darkblue;
+    color: var(--accent-color)
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--background-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--shadow);
 }
 p{
     padding: 10px;
